@@ -19,7 +19,7 @@ export default function KanbanColumn({
   return (
     <div
       className="
-    bg-slate-400 rounded-2xl shadow-lg shadow-cyan-900 p-4
+    bg-slate-300 rounded-2xl shadow-lg shadow-cyan-900 p-4
     flex-1 min-w-[85vw] sm:min-w-[320px] md:min-w-[280px]
     max-w-full md:max-w-[400px]
     transition-all duration-300 border border-slate-800
@@ -27,7 +27,7 @@ export default function KanbanColumn({
       onDragOver={(e) => e.preventDefault()}
       onDrop={handleDrop}
     >
-      <h2 className="font-bold text-xl mb-6 text-cyan-100 tracking-tight">
+      <h2 className="font-bold text-xl mb-6 text-cyan-00 tracking-tight">
         {column}
       </h2>
       {cards.map((card) => (

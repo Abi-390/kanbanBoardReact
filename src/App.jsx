@@ -1,8 +1,8 @@
-import Kanbanboard from "./components/Kanbanboard";
+import Kanbanboard from "./components/KanbanBoard";
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-slate-900">
+    <div className="min-h-screen bg-gradient-to-br from-gray-100 via-blue-50 to-gray-100">
       <h1 className="text-3xl font-bold text-center py-6">Kanban Board</h1>
       <Kanbanboard />
     </div>
