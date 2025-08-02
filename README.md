@@ -1,12 +1,37 @@
-# React + Vite
+# 🚀 Kanban Board React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Watch it live on Vercel! 🌐](https://kanban-board-react-eta.vercel.app/)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Project Overview
 
-## Expanding the ESLint configuration
+This is a **responsive Kanban Board** built with **React.js** and **Tailwind CSS**. The app features:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Drag & drop cards to move tasks between columns  
+- Persistent data storage using **localStorage** with a custom React hook  
+- Modern, clean, and professional styling powered by Tailwind CSS  
+- Fully responsive layout that looks great on all screen sizes (mobile, tablet, desktop)  
+
+---
+
+## 🛠 Features
+
+- ✅ Add new tasks (cards) to any column  
+- ✅ Drag cards between **To Do**, **In Progress**, and **Done** columns  
+- ✅ Delete cards with a convenient button on each card  
+- ✅ Data persists even after closing or refreshing the browser thanks to localStorage  
+- ✅ Smooth animations and transitions for user interactions  
+
+---
+
+## ⚙️ Technologies Used
+
+- React.js (with functional components and hooks)  
+- Tailwind CSS for utility-first modern styling  
+- Custom React hook (`useLocalStorage`) for syncing state with localStorage  
+- HTML5 native Drag and Drop API  
+
+---
+
+ 
